@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators Practice</title>
+    <link rel="stylesheet" href="combinators.css">
+</head>
+<body>
+    <h1>Combinators Practice</h1>
+
+    <div class="container">
+        <p>Paragraph inside a container.</p>
+        <p class="child">Another paragraph inside the container.</p>
+        <span>This is a span inside the container.</span>
+        <span class="special">This is a special span inside the container.</span>
+    </div>
+
+    <p>This paragraph is outside the container.</p>
+    <div class="sibling-example">
+        <h2>Heading inside sibling-example div</h2>
+        <p class="adjacent">First paragraph inside sibling-example.</p>
+        <p>Second paragraph inside sibling-example.</p>
+    </div>
+
+    <div class="far-sibling-example">
+        <h3>Heading inside far-sibling-example div</h3>
+        <p class="start">First paragraph inside far-sibling-example.</p>
+        <p>Another paragraph inside far-sibling-example.</p>
+        <p>Yet another paragraph inside far-sibling-example.</p>
+    </div>
+
+    <p class="end">This is a far sibling paragraph.</p>
+</body>
+</html>
